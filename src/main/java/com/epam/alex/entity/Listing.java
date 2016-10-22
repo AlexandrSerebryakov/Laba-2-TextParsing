@@ -1,7 +1,7 @@
-package com.epam.alex;
+package com.epam.alex.entity;
 
 /**
  * Created by ${AlexandrSerebryakov} on ${09.10.2016}.
  */
-public class Runner {
+public class Listing {
 }
