@@ -1,14 +1,15 @@
 package com.epam.alex.main;
 
-import java.io.FileNotFoundException;
+import com.epam.alex.service.TextReader;
 
-import static com.epam.alex.service.TextReader.readText;
+import java.io.FileNotFoundException;
 
 /**
  * Created by Alexandr Serebryakov on 22.10.2016.
  */
 public class Runner {
     public static void main(String[] args) throws FileNotFoundException {
-        String text =readText();
+        String text = TextReader.readText();
+        System.out.println(text);
     }
 }

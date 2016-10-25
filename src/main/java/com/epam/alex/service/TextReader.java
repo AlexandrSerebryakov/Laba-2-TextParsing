@@ -12,7 +12,7 @@ public class TextReader {
 
     static String text = "";
 
-    public String readText() throws FileNotFoundException {
+    public static String readText() throws FileNotFoundException {
         String text = "";
         Scanner scanner = new Scanner(new File("text.txt"));
         while (scanner.hasNextLine()) {
