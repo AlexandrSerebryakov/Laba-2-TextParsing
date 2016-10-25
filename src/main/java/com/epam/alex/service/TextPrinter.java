@@ -1,7 +1,7 @@
 package com.epam.alex.service;
 
 /**
- * Created by ${AlexandrSerebryakov} on ${09.10.2016}.
+ * Created by Alexandr Serebryakov on 22.10.2016.
  */
 public class TextPrinter {
 }
