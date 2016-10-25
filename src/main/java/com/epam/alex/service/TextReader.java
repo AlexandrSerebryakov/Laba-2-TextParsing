@@ -8,7 +8,11 @@ import java.util.Scanner;
  * Created by Alexandr Serebryakov on 22.10.2016.
  */
 public class TextReader {
-    public static String readText() throws FileNotFoundException {
+
+
+    static String text = "";
+
+    public String readText() throws FileNotFoundException {
         String text = "";
         Scanner scanner = new Scanner(new File("text.txt"));
         while (scanner.hasNextLine()) {
@@ -17,4 +21,10 @@ public class TextReader {
         }
         return text;
     }
+
+    public static String getText() {
+        return text;
+    }
+
+
 }
