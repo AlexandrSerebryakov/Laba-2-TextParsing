@@ -1,2 +1,2 @@
 # Laba-2-TextParsing
-Laba#2. Parsing of text.
+Create a word processing program for any text using the classes. The symbol, word, sentence, paragraph, token,listing, punctuation, etc. In all the problems with the formation of the text to replace the tab and the sequence of spaces with a single space. Pre text must be disassembled into its component parts, to perform two or three of the available jobs and output the result.
