@@ -1,6 +1,6 @@
-package com.epam.alex.entity;
+package com.epam.alex.model.entity;
 
-import com.epam.alex.model.TextComposite;
+import com.epam.alex.model1.TextComposite;
 
 /**
  * Created by Alexandr Serebryakov on 22.10.2016.
