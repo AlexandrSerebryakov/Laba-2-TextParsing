@@ -1,4 +1,4 @@
-package com.epam.alex.service;
+package com.epam.alex.model.io;
 
 import java.io.File;
 import java.io.FileNotFoundException;

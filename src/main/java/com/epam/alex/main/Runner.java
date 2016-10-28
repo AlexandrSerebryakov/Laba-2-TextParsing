@@ -1,6 +1,6 @@
 package com.epam.alex.main;
 
-import com.epam.alex.service.TextReader;
+import com.epam.alex.model.io.TextReader;
 
 import java.io.FileNotFoundException;
 

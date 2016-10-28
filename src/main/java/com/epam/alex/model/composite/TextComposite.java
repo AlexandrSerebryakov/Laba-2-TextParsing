@@ -1,4 +1,4 @@
-package com.epam.alex.model1;
+package com.epam.alex.model.composite;
 
 /**
  * Created by Alexandr Serebryakov on 25.10.2016.

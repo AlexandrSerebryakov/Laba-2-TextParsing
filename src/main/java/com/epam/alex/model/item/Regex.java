@@ -1,4 +1,4 @@
-package com.epam.alex.model1;
+package com.epam.alex.model.item;
 
 /**
  * Created by ${AlexandrSerebryakov} on ${09.10.2016}.
