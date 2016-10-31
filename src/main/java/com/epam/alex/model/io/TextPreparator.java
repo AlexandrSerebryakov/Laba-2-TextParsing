@@ -9,9 +9,8 @@ public class TextPreparator {
 
 
     public static String prepareText(String text) {
-        trim(text);
+        String textAfterTrim = trim(text);
 
-
-        return text;
+        return textAfterTrim;
     }
 }
