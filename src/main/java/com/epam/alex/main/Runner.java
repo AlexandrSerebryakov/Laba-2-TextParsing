@@ -1,5 +1,7 @@
 package com.epam.alex.main;
 
+import com.epam.alex.model.io.TextPreparator;
+import com.epam.alex.model.io.TextPrinter;
 import com.epam.alex.model.io.TextReader;
 
 import java.io.FileNotFoundException;
@@ -10,6 +12,7 @@ import java.io.FileNotFoundException;
 public class Runner {
     public static void main(String[] args) throws FileNotFoundException {
         String text = TextReader.readText();
-        System.out.println(text);
+        TextPreparator.prepareText(text);
+        TextPrinter.printText(text);
     }
 }
