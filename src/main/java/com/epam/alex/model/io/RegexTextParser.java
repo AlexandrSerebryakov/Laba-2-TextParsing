@@ -10,7 +10,6 @@ import java.util.regex.Pattern;
  */
 public class RegexTextParser {
     public static List<String> textParse(String prepText, String regex) {
-        /*regex = Text.REGEX_FROM_TEXT_TO_PARAGRAPH;*/
         List<String> list = new ArrayList<String>();
         Matcher matcher = Pattern.compile(regex).matcher(prepText);
         while (matcher.find()) {

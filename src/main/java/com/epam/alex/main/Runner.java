@@ -20,14 +20,16 @@ public class Runner {
         String prepText = TextPreparator.prepareText(text);
         TextPrinter.printTextString(prepText);
 
-        List<String> textAfterParsing1 = RegexTextParser.textParse(prepText, Text.REGEX_FROM_TEXT_TO_PARAGRAPH);
-        System.out.println(textAfterParsing1.toString().trim());
+        List<String> textAfterParsingText = RegexTextParser.textParse(prepText, Text.REGEX_FROM_TEXT_TO_PARAGRAPH);
+        System.out.println(textAfterParsingText.toString().trim());
 
-        List<String> textAfterParsing2 = RegexTextParser.textParse(textAfterParsing1.toString(), Paragraph.REGEX_FROM_PARAGRAPH_TO_SENTENCE_VARIANT);
-        System.out.println(textAfterParsing2.toString().trim());
+        List<String> textAfterParsingParagraph = RegexTextParser.textParse(textAfterParsingText.toString(),
+                Paragraph.REGEX_FROM_PARAGRAPH_TO_SENTENCE_VARIANT);
+        System.out.println(textAfterParsingParagraph.toString().trim());
 
-        List<String> textAfterParsing3 = RegexTextParser.textParse(textAfterParsing2.toString(), Sentence.REGEX_FROM_SENTENCE_TO_WORD);
-        System.out.println(textAfterParsing3.toString().trim());
+        List<String> textAfterParsingSentence = RegexTextParser.textParse(textAfterParsingParagraph.toString(),
+                Sentence.REGEX_FROM_SENTENCE_TO_WORD);
+        System.out.println(textAfterParsingSentence.toString().trim());
 
 
     }
