@@ -6,4 +6,5 @@ import com.epam.alex.model.composite.TextComposite;
  * Created by Alexandr Serebryakov on 22.10.2016.
  */
 public class Sentence implements TextComposite {
+    public static final String REGEX_FROM_SENTENCE_TO_WORD = "[\\p{L}]+((\\.|-)?([\\p{L}]+))?";
 }
